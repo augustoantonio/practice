@@ -1,4 +1,4 @@
 <?php
 
-header('location: date.php');
+header('location: strings.php');
 ?>

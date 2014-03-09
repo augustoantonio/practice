@@ -105,14 +105,12 @@ $a = jdtounix(2441595);
 echo $a;
 
 echo '<hr/>';
-// 
-// //unixtojd
-// echo "UnixToJD. ->";
-// $a = unixtojd(87004800);
-// echo $a.'</br>';
-// echo "UnixToJD() si no se le pasa argumento devuelve el JD del dia de hoy ->";
-// $a = unixtojd();
-// echo $a." , que en gre es: ".date('D, M d Y ', jdtogregorian(2441595));
 
+//unixtojd
+$today = unixtojd();
+echo 'unixtojd(); -> el JD de hoy: ';
+var_dump($today);
+echo '</br>';
+echo '<hr/>';
 echo '<hr/>';
 ?>
