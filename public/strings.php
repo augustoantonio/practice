@@ -1,18 +1,6 @@
 <?php
-$str = "A 'quote' is <b>bold</b>";
 
-// Produce: A 'quote' is &lt;b&gt;bold&lt;/b&gt;
-echo htmlentities($str).'<br/>';
 
-// Produce: A &#039;quote&#039; is &lt;b&gt;bold&lt;/b&gt;
-echo htmlentities($str, ENT_QUOTES);
-die;
-
-$str ='abcde';
-
-$result = substr($str, -1);
-var_dump($result);
-die;
 
 
 error_reporting(E_ALL);

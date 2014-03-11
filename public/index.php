@@ -1,4 +1,4 @@
 <?php
 
-header('location: arrays.php');
+header('location: functionstrings.php');
 ?>
